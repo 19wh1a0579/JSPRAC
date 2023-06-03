@@ -3,5 +3,7 @@ console.log(list);
 list[2].style.backgroundColor = 'yellow';
 list[0].style.fontWeight = 'bold';
 
-var listId = document.getElementById('items');
-listId.style.fontWeight ='bold';
+
+for(var i =0; i< list.length;i++){
+    list[i].style.fontWeight = 'bold';
+}
